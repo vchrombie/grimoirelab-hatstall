@@ -15,7 +15,7 @@ before_install:
   - pip install django
   - pip install python-dateutil
   - pip install pandas>=1.0.0
-  - pip install sortinghat>=0.7.7
+  - pip install sortinghat
   - cd django-hatstall && ./config_deployment.py && cd ..
   - cd django-hatstall && python manage.py makemigrations && cd ..
   - cd django-hatstall && python manage.py migrate && cd ..
